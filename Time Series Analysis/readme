@@ -1,0 +1,46 @@
+Predictive Modeling 2: Time Series Analysis
+
+1. Apply Time Series methods to analyze the data in any one time series data set other than AirPassengers or Atmospheric CO2. 
+  (Hint: You may find and choose your own data set, but choose one that gives reasonably good results when you analyze it using the
+  methods of time series analysis)
+
+2. Build a timeSeries object with the data.
+
+3. Plot the yearly (or other suitable periodic) mean values
+
+4. Plot the monthly (or other suitable periodic) boxplots
+
+5. Decompose the time series using the stl function. What type of trend does it show?
+
+6. What type of seasonality?
+
+7. How is the residue after you remove trend and seasonality?
+
+8. Build a model of the data using the HoltWinters method for the period upto about 75% of the data 
+(e.g., up to December 2015 if it were for the CO2 data set). Use suitable values of alpha, beta and gamma.
+
+9. Predict the values for the next 25% of the time (e.g., for the CO2 data set, all of 2016 and the first 3 months of 2017).
+
+10. Plot the predicted values along with the actual values to compare them.
+
+11. Compute the rms error between the predicted and actual values.
+
+12. Try to fine tune the model by changing alpha, beta and gamma.
+Are you able to improve the model (i.e., get a lower rms error)?
+
+13. Build an ARIMA model for the period up to about 75% of the data (e.g., for the CO2 data, up to December 2015) using auto.arima()
+
+14. Predict the values for the next 15 months (e.g., for the CO2 data, all of 2016 and the first 3 months of 2017).
+
+15. Plot the predicted values along with the actual values to compare them.
+
+16. Compute the rms error between the predicted and actual values.
+
+17. Try to fine tune the model by manually changing the values of p, d, and q in ARIMA.
+  Are you able to improve the model (i.e., get a lower rms error)?
+
+18. Based on your experiment, which method is better and why? HoltWinters or ARIMA?
+
+19. Did you try anything like detrending or cleaning up the data outside of these methods? Did it help?
+
+20. If at any point you are not getting good results, consider changing the data set! (You don't have that liberty in real life, but for this lab assignment, you can!)

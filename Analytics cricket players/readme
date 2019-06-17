@@ -1,0 +1,24 @@
+
+
+- if for some reason you have a complete a version to the game of cricket, 
+please talk to one of us and choose a different but comparable data set
+- else
+    - understand the data set by carrying out descriptive analytics 
+    - compute basic statistics and plot some graphs and charts  
+    - group players into "similar" groups by using any clustering algorithm such as K-Means: 
+       you decide which attributes to use, what time periods, what is the value of k, etc.
+    - classify the cricket players into the following 6 categories (across formats, i.e., irrespective of ODI/Test/T20):
+            1. best batsmen 
+            2. good (but not best) batsmen
+            3. best bowlers
+            4. good (but not best) bowlers
+            5. best other contributors
+            6. useless fellows
+
+          Define your own criteria/rules for the above 6 categories (but please do state them for us to understand!)
+
+          You may use any classification algorithm to do this (except manually classifying using your human intelligence!)
+
+    - compare the results of clustering and classification to see if clustering "discovered" groups similar to these categories
+      or not or anything unusual
+
